@@ -1,0 +1,545 @@
+Data da mensagem: Wed May 09 23:31:43 BRT 2018
+Mensagem: java.lang.Throwable: Conectou na Concentradora
+Data da mensagem: Wed May 09 23:33:09 BRT 2018
+Mensagem: java.lang.Throwable: Conectou na Concentradora
+Data da mensagem: Wed May 09 23:36:10 BRT 2018
+Mensagem: java.lang.Throwable: Conectou na Concentradora
+Data da mensagem: Wed May 09 23:38:19 BRT 2018
+Mensagem: java.lang.Throwable: Conectou na Concentradora
+Data da mensagem: Wed May 09 23:40:32 BRT 2018
+Mensagem: java.lang.Throwable: Conectou na Concentradora
+Data do erro: Thu May 10 00:48:35 BRT 2018
+Mensagem de erro: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:\Users\Flávio Giron\Documents\NetBeansProjects\AutoCAF_Extractor\/CAFEX.FDB"
+Error while trying to open file
+null
+Stacktrace: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:\Users\Flávio Giron\Documents\NetBeansProjects\AutoCAF_Extractor\/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:123)
+	at org.firebirdsql.jdbc.AbstractDriver.connect(AbstractDriver.java:126)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at bd.ConexaoFirebird.getConnection(ConexaoFirebird.java:24)
+	at ctr.GlobalParameter.getInstance(GlobalParameter.java:25)
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:67)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Caused by: org.firebirdsql.gds.GDSException: I/O error during "CreateFile (open)" operation for file "C:\Users\Flávio Giron\Documents\NetBeansProjects\AutoCAF_Extractor\/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.readStatusVector(AbstractJavaGDSImpl.java:2214)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.receiveResponse(AbstractJavaGDSImpl.java:2164)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.internalAttachDatabase(AbstractJavaGDSImpl.java:458)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.iscAttachDatabase(AbstractJavaGDSImpl.java:411)
+	at org.firebirdsql.jca.FBManagedConnection.<init>(FBManagedConnection.java:105)
+	at org.firebirdsql.jca.FBManagedConnectionFactory.createManagedConnection(FBManagedConnectionFactory.java:490)
+	at org.firebirdsql.jca.FBStandAloneConnectionManager.allocateConnection(FBStandAloneConnectionManager.java:69)
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:120)
+	... 9 more
+Data do erro: Thu May 10 00:48:45 BRT 2018
+Mensagem de erro: java.lang.NullPointerException
+Stacktrace: java.lang.NullPointerException
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:72)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Data do erro: Thu May 10 00:48:59 BRT 2018
+Mensagem de erro: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:\USERS\FLáVIO GIRON\DOCUMENTS\NETBEANSPROJECTS\AUTOCAF_EXTRACTOR\CAFEX.FDB"
+Error while trying to open file
+null
+Stacktrace: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:\USERS\FLáVIO GIRON\DOCUMENTS\NETBEANSPROJECTS\AUTOCAF_EXTRACTOR\CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:123)
+	at org.firebirdsql.jdbc.AbstractDriver.connect(AbstractDriver.java:126)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at bd.ConexaoFirebird.getConnection(ConexaoFirebird.java:24)
+	at ctr.GlobalParameter.getInstance(GlobalParameter.java:25)
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:67)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Caused by: org.firebirdsql.gds.GDSException: I/O error during "CreateFile (open)" operation for file "C:\USERS\FLáVIO GIRON\DOCUMENTS\NETBEANSPROJECTS\AUTOCAF_EXTRACTOR\CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.readStatusVector(AbstractJavaGDSImpl.java:2214)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.receiveResponse(AbstractJavaGDSImpl.java:2164)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.internalAttachDatabase(AbstractJavaGDSImpl.java:458)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.iscAttachDatabase(AbstractJavaGDSImpl.java:411)
+	at org.firebirdsql.jca.FBManagedConnection.<init>(FBManagedConnection.java:105)
+	at org.firebirdsql.jca.FBManagedConnectionFactory.createManagedConnection(FBManagedConnectionFactory.java:490)
+	at org.firebirdsql.jca.FBStandAloneConnectionManager.allocateConnection(FBStandAloneConnectionManager.java:69)
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:120)
+	... 9 more
+Data do erro: Thu May 10 00:49:17 BRT 2018
+Mensagem de erro: java.lang.NullPointerException
+Stacktrace: java.lang.NullPointerException
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:72)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Data do erro: Thu May 10 00:50:15 BRT 2018
+Mensagem de erro: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:\USERS\FLáVIO GIRON\DOCUMENTS\NETBEANSPROJECTS\AUTOCAF_EXTRACTOR\CAFEX.FDB"
+Error while trying to open file
+null
+Stacktrace: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:\USERS\FLáVIO GIRON\DOCUMENTS\NETBEANSPROJECTS\AUTOCAF_EXTRACTOR\CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:123)
+	at org.firebirdsql.jdbc.AbstractDriver.connect(AbstractDriver.java:126)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at bd.ConexaoFirebird.getConnection(ConexaoFirebird.java:24)
+	at ctr.GlobalParameter.getInstance(GlobalParameter.java:25)
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:67)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Caused by: org.firebirdsql.gds.GDSException: I/O error during "CreateFile (open)" operation for file "C:\USERS\FLáVIO GIRON\DOCUMENTS\NETBEANSPROJECTS\AUTOCAF_EXTRACTOR\CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.readStatusVector(AbstractJavaGDSImpl.java:2214)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.receiveResponse(AbstractJavaGDSImpl.java:2164)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.internalAttachDatabase(AbstractJavaGDSImpl.java:458)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.iscAttachDatabase(AbstractJavaGDSImpl.java:411)
+	at org.firebirdsql.jca.FBManagedConnection.<init>(FBManagedConnection.java:105)
+	at org.firebirdsql.jca.FBManagedConnectionFactory.createManagedConnection(FBManagedConnectionFactory.java:490)
+	at org.firebirdsql.jca.FBStandAloneConnectionManager.allocateConnection(FBStandAloneConnectionManager.java:69)
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:120)
+	... 9 more
+Data do erro: Thu May 10 00:50:18 BRT 2018
+Mensagem de erro: java.lang.NullPointerException
+Stacktrace: java.lang.NullPointerException
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:72)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Data do erro: Thu May 10 00:50:59 BRT 2018
+Mensagem de erro: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+Stacktrace: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:123)
+	at org.firebirdsql.jdbc.AbstractDriver.connect(AbstractDriver.java:126)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at bd.ConexaoFirebird.getConnection(ConexaoFirebird.java:24)
+	at ctr.GlobalParameter.getInstance(GlobalParameter.java:25)
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:67)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Caused by: org.firebirdsql.gds.GDSException: I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.readStatusVector(AbstractJavaGDSImpl.java:2214)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.receiveResponse(AbstractJavaGDSImpl.java:2164)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.internalAttachDatabase(AbstractJavaGDSImpl.java:458)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.iscAttachDatabase(AbstractJavaGDSImpl.java:411)
+	at org.firebirdsql.jca.FBManagedConnection.<init>(FBManagedConnection.java:105)
+	at org.firebirdsql.jca.FBManagedConnectionFactory.createManagedConnection(FBManagedConnectionFactory.java:490)
+	at org.firebirdsql.jca.FBStandAloneConnectionManager.allocateConnection(FBStandAloneConnectionManager.java:69)
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:120)
+	... 9 more
+Data do erro: Thu May 10 00:51:55 BRT 2018
+Mensagem de erro: java.lang.NullPointerException
+Stacktrace: java.lang.NullPointerException
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:72)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Data do erro: Thu May 10 00:53:37 BRT 2018
+Mensagem de erro: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+Stacktrace: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:123)
+	at org.firebirdsql.jdbc.AbstractDriver.connect(AbstractDriver.java:126)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at bd.ConexaoFirebird.getConnection(ConexaoFirebird.java:24)
+	at ctr.GlobalParameter.getInstance(GlobalParameter.java:25)
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:67)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Caused by: org.firebirdsql.gds.GDSException: I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.readStatusVector(AbstractJavaGDSImpl.java:2214)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.receiveResponse(AbstractJavaGDSImpl.java:2164)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.internalAttachDatabase(AbstractJavaGDSImpl.java:458)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.iscAttachDatabase(AbstractJavaGDSImpl.java:411)
+	at org.firebirdsql.jca.FBManagedConnection.<init>(FBManagedConnection.java:105)
+	at org.firebirdsql.jca.FBManagedConnectionFactory.createManagedConnection(FBManagedConnectionFactory.java:490)
+	at org.firebirdsql.jca.FBStandAloneConnectionManager.allocateConnection(FBStandAloneConnectionManager.java:69)
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:120)
+	... 9 more
+Data do erro: Thu May 10 00:53:47 BRT 2018
+Mensagem de erro: java.lang.NullPointerException
+Stacktrace: java.lang.NullPointerException
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:72)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Data do erro: Thu May 10 00:54:01 BRT 2018
+Mensagem de erro: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "D:/CAFEX.FDB"
+Error while trying to open file
+null
+Stacktrace: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "D:/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:123)
+	at org.firebirdsql.jdbc.AbstractDriver.connect(AbstractDriver.java:126)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at bd.ConexaoFirebird.getConnection(ConexaoFirebird.java:24)
+	at ctr.GlobalParameter.getInstance(GlobalParameter.java:25)
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:67)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Caused by: org.firebirdsql.gds.GDSException: I/O error during "CreateFile (open)" operation for file "D:/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.readStatusVector(AbstractJavaGDSImpl.java:2214)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.receiveResponse(AbstractJavaGDSImpl.java:2164)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.internalAttachDatabase(AbstractJavaGDSImpl.java:458)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.iscAttachDatabase(AbstractJavaGDSImpl.java:411)
+	at org.firebirdsql.jca.FBManagedConnection.<init>(FBManagedConnection.java:105)
+	at org.firebirdsql.jca.FBManagedConnectionFactory.createManagedConnection(FBManagedConnectionFactory.java:490)
+	at org.firebirdsql.jca.FBStandAloneConnectionManager.allocateConnection(FBStandAloneConnectionManager.java:69)
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:120)
+	... 9 more
+Data do erro: Thu May 10 00:54:05 BRT 2018
+Mensagem de erro: java.lang.NullPointerException
+Stacktrace: java.lang.NullPointerException
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:72)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Data do erro: Thu May 10 00:55:36 BRT 2018
+Mensagem de erro: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+Stacktrace: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:123)
+	at org.firebirdsql.jdbc.AbstractDriver.connect(AbstractDriver.java:126)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at bd.ConexaoFirebird.getConnection(ConexaoFirebird.java:24)
+	at ctr.GlobalParameter.getInstance(GlobalParameter.java:25)
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:67)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Caused by: org.firebirdsql.gds.GDSException: I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.readStatusVector(AbstractJavaGDSImpl.java:2214)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.receiveResponse(AbstractJavaGDSImpl.java:2164)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.internalAttachDatabase(AbstractJavaGDSImpl.java:458)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.iscAttachDatabase(AbstractJavaGDSImpl.java:411)
+	at org.firebirdsql.jca.FBManagedConnection.<init>(FBManagedConnection.java:105)
+	at org.firebirdsql.jca.FBManagedConnectionFactory.createManagedConnection(FBManagedConnectionFactory.java:490)
+	at org.firebirdsql.jca.FBStandAloneConnectionManager.allocateConnection(FBStandAloneConnectionManager.java:69)
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:120)
+	... 9 more
+Data do erro: Thu May 10 00:55:52 BRT 2018
+Mensagem de erro: java.lang.NullPointerException
+Stacktrace: java.lang.NullPointerException
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:72)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Data do erro: Thu May 10 00:59:48 BRT 2018
+Mensagem de erro: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+Stacktrace: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:123)
+	at org.firebirdsql.jdbc.AbstractDriver.connect(AbstractDriver.java:126)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at bd.ConexaoFirebird.getConnection(ConexaoFirebird.java:24)
+	at ctr.GlobalParameter.getInstance(GlobalParameter.java:25)
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:67)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Caused by: org.firebirdsql.gds.GDSException: I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.readStatusVector(AbstractJavaGDSImpl.java:2214)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.receiveResponse(AbstractJavaGDSImpl.java:2164)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.internalAttachDatabase(AbstractJavaGDSImpl.java:458)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.iscAttachDatabase(AbstractJavaGDSImpl.java:411)
+	at org.firebirdsql.jca.FBManagedConnection.<init>(FBManagedConnection.java:105)
+	at org.firebirdsql.jca.FBManagedConnectionFactory.createManagedConnection(FBManagedConnectionFactory.java:490)
+	at org.firebirdsql.jca.FBStandAloneConnectionManager.allocateConnection(FBStandAloneConnectionManager.java:69)
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:120)
+	... 9 more
+Data do erro: Thu May 10 01:02:24 BRT 2018
+Mensagem de erro: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+Stacktrace: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:123)
+	at org.firebirdsql.jdbc.AbstractDriver.connect(AbstractDriver.java:126)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at bd.ConexaoFirebird.getConnection(ConexaoFirebird.java:24)
+	at ctr.GlobalParameter.getInstance(GlobalParameter.java:25)
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:67)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Caused by: org.firebirdsql.gds.GDSException: I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.readStatusVector(AbstractJavaGDSImpl.java:2214)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.receiveResponse(AbstractJavaGDSImpl.java:2164)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.internalAttachDatabase(AbstractJavaGDSImpl.java:458)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.iscAttachDatabase(AbstractJavaGDSImpl.java:411)
+	at org.firebirdsql.jca.FBManagedConnection.<init>(FBManagedConnection.java:105)
+	at org.firebirdsql.jca.FBManagedConnectionFactory.createManagedConnection(FBManagedConnectionFactory.java:490)
+	at org.firebirdsql.jca.FBStandAloneConnectionManager.allocateConnection(FBStandAloneConnectionManager.java:69)
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:120)
+	... 9 more
+Data do erro: Thu May 10 01:02:44 BRT 2018
+Mensagem de erro: java.lang.NullPointerException
+Stacktrace: java.lang.NullPointerException
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:72)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Data do erro: Thu May 10 01:02:51 BRT 2018
+Mensagem de erro: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+Stacktrace: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:123)
+	at org.firebirdsql.jdbc.AbstractDriver.connect(AbstractDriver.java:126)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at bd.ConexaoFirebird.getConnection(ConexaoFirebird.java:24)
+	at ctr.GlobalParameter.getInstance(GlobalParameter.java:25)
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:67)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Caused by: org.firebirdsql.gds.GDSException: I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.readStatusVector(AbstractJavaGDSImpl.java:2214)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.receiveResponse(AbstractJavaGDSImpl.java:2164)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.internalAttachDatabase(AbstractJavaGDSImpl.java:458)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.iscAttachDatabase(AbstractJavaGDSImpl.java:411)
+	at org.firebirdsql.jca.FBManagedConnection.<init>(FBManagedConnection.java:105)
+	at org.firebirdsql.jca.FBManagedConnectionFactory.createManagedConnection(FBManagedConnectionFactory.java:490)
+	at org.firebirdsql.jca.FBStandAloneConnectionManager.allocateConnection(FBStandAloneConnectionManager.java:69)
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:120)
+	... 9 more
+Data do erro: Thu May 10 01:02:54 BRT 2018
+Mensagem de erro: java.lang.NullPointerException
+Stacktrace: java.lang.NullPointerException
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:72)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Data do erro: Thu May 10 01:06:21 BRT 2018
+Mensagem de erro: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+Stacktrace: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:123)
+	at org.firebirdsql.jdbc.AbstractDriver.connect(AbstractDriver.java:126)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at bd.ConexaoFirebird.getConnection(ConexaoFirebird.java:24)
+	at ctr.GlobalParameter.getInstance(GlobalParameter.java:25)
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:67)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Caused by: org.firebirdsql.gds.GDSException: I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.readStatusVector(AbstractJavaGDSImpl.java:2214)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.receiveResponse(AbstractJavaGDSImpl.java:2164)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.internalAttachDatabase(AbstractJavaGDSImpl.java:458)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.iscAttachDatabase(AbstractJavaGDSImpl.java:411)
+	at org.firebirdsql.jca.FBManagedConnection.<init>(FBManagedConnection.java:105)
+	at org.firebirdsql.jca.FBManagedConnectionFactory.createManagedConnection(FBManagedConnectionFactory.java:490)
+	at org.firebirdsql.jca.FBStandAloneConnectionManager.allocateConnection(FBStandAloneConnectionManager.java:69)
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:120)
+	... 9 more
+Data do erro: Thu May 10 01:06:22 BRT 2018
+Mensagem de erro: java.lang.NullPointerException
+Stacktrace: java.lang.NullPointerException
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:72)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Data do erro: Tue May 22 21:43:16 BRT 2018
+Mensagem de erro: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+Stacktrace: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:123)
+	at org.firebirdsql.jdbc.AbstractDriver.connect(AbstractDriver.java:126)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at bd.ConexaoFirebird.getConnection(ConexaoFirebird.java:24)
+	at ctr.GlobalParameter.getInstance(GlobalParameter.java:25)
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:67)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Caused by: org.firebirdsql.gds.GDSException: I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.readStatusVector(AbstractJavaGDSImpl.java:2214)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.receiveResponse(AbstractJavaGDSImpl.java:2164)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.internalAttachDatabase(AbstractJavaGDSImpl.java:458)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.iscAttachDatabase(AbstractJavaGDSImpl.java:411)
+	at org.firebirdsql.jca.FBManagedConnection.<init>(FBManagedConnection.java:105)
+	at org.firebirdsql.jca.FBManagedConnectionFactory.createManagedConnection(FBManagedConnectionFactory.java:490)
+	at org.firebirdsql.jca.FBStandAloneConnectionManager.allocateConnection(FBStandAloneConnectionManager.java:69)
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:120)
+	... 9 more
+Data do erro: Tue May 22 21:43:41 BRT 2018
+Mensagem de erro: java.lang.NullPointerException
+Stacktrace: java.lang.NullPointerException
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:72)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Data do erro: Tue May 22 21:44:13 BRT 2018
+Mensagem de erro: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+Stacktrace: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:123)
+	at org.firebirdsql.jdbc.AbstractDriver.connect(AbstractDriver.java:126)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at bd.ConexaoFirebird.getConnection(ConexaoFirebird.java:24)
+	at ctr.GlobalParameter.getInstance(GlobalParameter.java:25)
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:67)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Caused by: org.firebirdsql.gds.GDSException: I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.readStatusVector(AbstractJavaGDSImpl.java:2214)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.receiveResponse(AbstractJavaGDSImpl.java:2164)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.internalAttachDatabase(AbstractJavaGDSImpl.java:458)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.iscAttachDatabase(AbstractJavaGDSImpl.java:411)
+	at org.firebirdsql.jca.FBManagedConnection.<init>(FBManagedConnection.java:105)
+	at org.firebirdsql.jca.FBManagedConnectionFactory.createManagedConnection(FBManagedConnectionFactory.java:490)
+	at org.firebirdsql.jca.FBStandAloneConnectionManager.allocateConnection(FBStandAloneConnectionManager.java:69)
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:120)
+	... 9 more
+Data do erro: Tue May 22 21:44:27 BRT 2018
+Mensagem de erro: java.lang.NullPointerException
+Stacktrace: java.lang.NullPointerException
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:72)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Data do erro: Tue May 22 21:49:59 BRT 2018
+Mensagem de erro: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+Stacktrace: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:123)
+	at org.firebirdsql.jdbc.AbstractDriver.connect(AbstractDriver.java:126)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at bd.ConexaoFirebird.getConnection(ConexaoFirebird.java:24)
+	at ctr.GlobalParameter.getInstance(GlobalParameter.java:25)
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:67)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Caused by: org.firebirdsql.gds.GDSException: I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.readStatusVector(AbstractJavaGDSImpl.java:2214)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.receiveResponse(AbstractJavaGDSImpl.java:2164)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.internalAttachDatabase(AbstractJavaGDSImpl.java:458)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.iscAttachDatabase(AbstractJavaGDSImpl.java:411)
+	at org.firebirdsql.jca.FBManagedConnection.<init>(FBManagedConnection.java:105)
+	at org.firebirdsql.jca.FBManagedConnectionFactory.createManagedConnection(FBManagedConnectionFactory.java:490)
+	at org.firebirdsql.jca.FBStandAloneConnectionManager.allocateConnection(FBStandAloneConnectionManager.java:69)
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:120)
+	... 9 more
+Data do erro: Tue May 22 21:50:05 BRT 2018
+Mensagem de erro: java.lang.NullPointerException
+Stacktrace: java.lang.NullPointerException
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:72)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Data do erro: Tue May 22 21:50:34 BRT 2018
+Mensagem de erro: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+Stacktrace: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544344. I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:123)
+	at org.firebirdsql.jdbc.AbstractDriver.connect(AbstractDriver.java:126)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at bd.ConexaoFirebird.getConnection(ConexaoFirebird.java:24)
+	at ctr.GlobalParameter.getInstance(GlobalParameter.java:25)
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:67)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Caused by: org.firebirdsql.gds.GDSException: I/O error during "CreateFile (open)" operation for file "C:/Users/Flávio Giron/Documents/NetBeansProjects/AutoCAF_Extractor/CAFEX.FDB"
+Error while trying to open file
+null
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.readStatusVector(AbstractJavaGDSImpl.java:2214)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.receiveResponse(AbstractJavaGDSImpl.java:2164)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.internalAttachDatabase(AbstractJavaGDSImpl.java:458)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.iscAttachDatabase(AbstractJavaGDSImpl.java:411)
+	at org.firebirdsql.jca.FBManagedConnection.<init>(FBManagedConnection.java:105)
+	at org.firebirdsql.jca.FBManagedConnectionFactory.createManagedConnection(FBManagedConnectionFactory.java:490)
+	at org.firebirdsql.jca.FBStandAloneConnectionManager.allocateConnection(FBStandAloneConnectionManager.java:69)
+	at org.firebirdsql.jdbc.FBDataSource.getConnection(FBDataSource.java:120)
+	... 9 more
+Data do erro: Tue May 22 21:50:36 BRT 2018
+Mensagem de erro: java.lang.NullPointerException
+Stacktrace: java.lang.NullPointerException
+	at bd.AbastecimentoDB.buscaExportados(AbastecimentoDB.java:72)
+	at view.movimentacao.SDIPrincipalGUI.carregaGrid(SDIPrincipalGUI.java:318)
+	at view.movimentacao.SDIPrincipalGUI.<init>(SDIPrincipalGUI.java:41)
+	at CAF.main(CAF.java:22)
+Data da mensagem: Tue May 22 21:52:46 BRT 2018
+Mensagem: java.lang.Throwable: Conectou na Concentradora
